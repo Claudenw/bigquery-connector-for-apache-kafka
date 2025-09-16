@@ -1,0 +1,20 @@
+## v2.7.0
+
+### What's Changed
+
+* Deprecate GCS batch loading feature (#20)
+* Deprecate partition decorator syntax feature (#21)
+* Bumps org.eclipse.jetty:jetty-server from 9.4.53.v20231009 to 9.4.56.v20240826.
+* Bumps org.eclipse.jetty:jetty-servlets from 9.4.53.v20231009 to 9.4.54.v20240208.
+* Add header provider (#57)
+* Retry getTable process before rasing any failure (#51)
+* Enable bigdecimal conversion for Debezium numeric types (#41)
+* Add optional configuration flag to use project ID from keyfile (#38)
+
+### New Contributors
+* @gharris1727 made their first contribution in https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/pull/28
+* @jeqo made their first contribution in https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/pull/29
+* @veliuenal made their first contribution in https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/pull/38
+
+### Full Changelog
+https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/compare/v2.6.0...v2.7.0

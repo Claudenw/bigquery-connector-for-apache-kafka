@@ -1,0 +1,5 @@
+## v2.6.0
+### What's Changed
+- Adds opt-in support for the [Storage Write API](https://cloud.google.com/bigquery/docs/write-api), which can be enabled via the `useStorageWriteApi` property. If enabled, the [default stream](https://cloud.google.com/bigquery/docs/write-api-streaming#at-least-once) will be used, unless the `enableBatchMode` property is set to `true`, in which case, the [pending type stream](https://cloud.google.com/bigquery/docs/write-api-batch#batch_load_data_using_pending_type) will be used instead. **NOTE: This is currently a beta feature and is not recommended for use in production.**
+- Permits multiple topics to be routed to the same table with the `topic2TableMap` property (https://github.com/confluentinc/kafka-connect-bigquery/pull/361)
+- Adds retry logic for "jobInternalError" errors when performing merge queries in upsert/delete mode (https://github.com/confluentinc/kafka-connect-bigquery/pull/363)

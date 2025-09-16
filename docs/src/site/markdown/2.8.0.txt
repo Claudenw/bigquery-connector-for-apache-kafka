@@ -1,0 +1,23 @@
+## v2.8.0
+### What's Changed
+- Updated Kafka.Decimal and Debezium.VariableScaleDecimal processing and adjusted tests (#82)
+- Added methods to LogicalConverterRegistry (#79)
+- Manifest contains valid specification information. #58 (#74)
+- Converted LogicalConverter libraries to true utility classes (#78)
+- Added log warning on lookup retries (#83)
+- Use the project defined in the connector configuration when useCredentialsProjectId is set to true (#75)
+- Retain the original topic, partition and offset in Kafka metadata record (#70)
+
+### New Contributors
+* @SamoylovMD made their first contribution in https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/pull/70
+* @hpmouton made their first contribution in https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/pull/74
+
+### Full Changelog ##
+https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/compare/v2.7.0...v2.8.0
+
+---------
+### Co-authored-by ##
+ - Ryan Skraba <ryan.skraba@aiven.io>
+ - Maksim Samoilov <maxim.samoilov@team.wrike.com>
+ - Mouton <HoutonH@bdv.local>
+ - veliuenal <veli.uenal@deliveryhero.com>
