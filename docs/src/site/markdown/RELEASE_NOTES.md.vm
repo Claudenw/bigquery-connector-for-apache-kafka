@@ -1,0 +1,9 @@
+
+
+# Release Notes
+
+All releases can be found at https://github.com/Aiven-Open/bigquery-connector-for-apache-kafka/releases
+
+${releaseNotes.configure("docs/src/site/markdown")}
+
+${releaseNotes.allEntries}
