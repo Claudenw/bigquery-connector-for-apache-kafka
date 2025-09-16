@@ -45,9 +45,5 @@ public class ReleaseNotesGenerator {
             sb.append(contents).append('\n');
         }
         return sb.toString();
-        fileMap.values().stream().map(f -> Files.readString(f.toPath())).collect(Collectors.joining("\n\n"));
-        for (File f : fileMap.values()) {
-
-        }
     }
 }
